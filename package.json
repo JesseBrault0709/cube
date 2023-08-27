@@ -1,6 +1,6 @@
 {
     "name": "@jessebrault0709/cube",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "A tiny library for typescript-to-lua programs targeting ComputerCraft 1.75/Minecraft 1.7.10.",
     "main": "dist/index",
     "types": "dist/index.d.ts",
@@ -13,8 +13,8 @@
     "repository": "https://github.com/JesseBrault0709/cube",
     "license": "ISC",
     "files": [
-        "dist/*.lua",
-        "dist/*.d.ts"
+        "dist/**/*.lua",
+        "dist/**/*.d.ts"
     ],
     "devDependencies": {
         "@jessebrault0709/cc-types": "^0.2.0",
