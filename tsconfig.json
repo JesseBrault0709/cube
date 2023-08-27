@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "lib": ["ESNext"],
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "strict": true,
+        "types": ["@typescript-to-lua/language-extensions", "@jessebrault0709/cc-types"]
+    },
+    "tstl": {
+        "buildMode": "library",
+        "noImplicitSelf": true
+    }
+}

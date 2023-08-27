@@ -1,0 +1,21 @@
+{
+    "name": "@jessebrault0709/cube",
+    "version": "0.1.0",
+    "description": "A framework for tstl programs targeting ComputerCraft 1.75.",
+    "main": "index.js",
+    "scripts": {
+        "test": "busted --directory=dist --pattern='%.spec' .",
+        "build": "tstl",
+        "dev": "tstl --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@jessebrault0709/cc-types": "^0.1.2",
+        "typescript-to-lua": "^1.18.0"
+    },
+    "files": [
+        "./dist/*.lua",
+        "./dist/*.d.ts"
+    ]
+}
